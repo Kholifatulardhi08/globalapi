@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import "bootstrap/dist/css/bootstrap.min.css";
+//import "popper.js";
 import reportWebVitals from './reportWebVitals';
+import BlogMahasiswa from "./container/BlogMahasiswa/BlogMahasiswa";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('content'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BlogMahasiswa />
   </React.StrictMode>
 );
 
